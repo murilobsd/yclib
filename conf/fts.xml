@@ -1,0 +1,12 @@
+<fts>
+  <id>fts</id>
+  <type>fts</type>
+  <log>
+    <path>/home/guoy/yms/log/fts.log</path>
+    <level>2</level>
+  </log>
+  <http>
+    <ip>218.17.109.125</ip>
+    <port>6510</port>
+  </http>
+</fts>

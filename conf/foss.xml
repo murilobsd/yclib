@@ -1,0 +1,27 @@
+<foss>
+  <id>foss</id>
+  <type>foss</type>
+  <nofile>655360</nofile>
+  <log>
+    <path>/home/guoy/yms/log/foss.log</path>
+    <level>2</level>
+  </log>
+  <http>
+    <ip>218.17.109.125</ip>
+    <port>9999</port>
+    <expire>60000</expire>
+  </http>
+  <ocs>
+    <ip>139.196.243.11</ip>
+    <port>5000</port>
+  </ocs>
+  <db>
+    <ip>139.196.243.11</ip>
+    <port>3306</port>
+    <user>root</user>
+    <passwd>yoongoo</passwd>
+    <database>TRS</database>
+    <min>16</min>
+    <max>16</max>
+  </db>
+</foss>

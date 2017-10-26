@@ -1,0 +1,30 @@
+<trs>
+  <id>trs</id>
+  <type>trs</type>
+  <nofile>655360</nofile>
+  <log>
+    <path>/home/guoy/yms/log/trs.log</path>
+    <level>2</level>
+  </log>
+  <http>
+    <ip>218.17.109.125</ip>
+    <port>9000</port>
+    <expire>60000</expire>
+  </http>
+  <foss>
+    <ip>218.17.109.125</ip>
+    <port>9999</port>
+    <login_interval>10</login_interval>
+    <postip>218.17.109.125</postip>
+    <postport>9000</postport>
+  </foss>
+  <db>
+    <ip>139.196.243.11</ip>
+    <port>3306</port>
+    <user>root</user>
+    <passwd>yoongoo</passwd>
+    <database>TRS</database>
+    <min>16</min>
+    <max>16</max>
+  </db>
+</trs>

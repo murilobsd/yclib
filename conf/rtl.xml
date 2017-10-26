@@ -1,0 +1,9 @@
+<rtl>
+  <id>rtl</id>
+  <type>rtl</type>
+  <log>
+    <path>/home/guoy/yms/log/rtl.log</path>
+    <level>2</level>
+  </log>
+  <app>rtmp</app>
+</rtl>

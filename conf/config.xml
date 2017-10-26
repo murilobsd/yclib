@@ -1,0 +1,32 @@
+<yms>
+  <id>yms_001</id>
+  <type>1</type>
+  <mac>bond0</mac>
+  <recddir>/home/guoy/yms/media/live/</recddir>
+  <recdsize>1000000000</recdsize>
+  <log>
+    <ip>127.0.0.1</ip>
+    <port>6002</port>
+    <level>2</level>
+  </log>
+  <hls>
+    <ip>127.0.0.1</ip>
+    <port>5002</port>
+    <frag_len>4</frag_len>
+    <max_duration>6</max_duration>
+    <gopsize>4</gopsize>
+    <tfragsize>10</tfragsize>
+  </hls>
+  <ocs>
+    <server>
+      <ip>139.196.243.11</ip>
+      <port>5000</port>
+    </server>
+    <max_conns>2</max_conns>
+    <channels_uri>/ois/channel/resource/list</channels_uri>
+    <resources_uri>/ois/file/resource/list</resources_uri>
+    <login_uri>/ois/user/login</login_uri>
+    <report_channel_uri>/ois/post/channel/status</report_channel_uri>
+  </ocs>
+
+</yms>

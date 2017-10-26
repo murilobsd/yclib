@@ -1,0 +1,16 @@
+<logserver>
+  <id>logserver</id>
+  <type>log</type>
+  <nofile>655360</nofile>
+  <rootdir>/home/guoy/yms/log/</rootdir>
+  <size>100000</size>
+  <log>
+    <path>/home/guoy/yms/log/logserver.log</path>
+    <level>2</level>
+  </log>
+  <http>
+    <ip>218.17.109.125</ip>
+    <port>6500</port>
+    <expire>60000</expire>
+  </http>
+</logserver>
